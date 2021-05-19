@@ -41,6 +41,9 @@ class ListEntryTableViewController: UITableViewController {
 
         // Configure the cell...
         cell.textLabel?.text = listArray[indexPath.row]
+        cell.textLabel?.textAlignment = .center
+        cell.textLabel?.textColor = .white
+        cell.textLabel?.font = .boldSystemFont(ofSize: 20)
 
         
         return cell

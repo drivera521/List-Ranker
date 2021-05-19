@@ -118,15 +118,15 @@ class RankedTableViewController: UITableViewController {
         present(alert, animated: true, completion: nil)
     }
     
-    func savedAlert() {
+    func savedAlert() {     
         let saveAlert = UIAlertController(title: "List Saved", message: nil, preferredStyle: .alert)
         
-        let cancel = UIAlertAction(title: "OK", style: .cancel) { (cancel) in
-            self.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        let okAction = UIAlertAction(title: "OK", style: .cancel) { (cancel) in
+            self.presentingViewController?.presentingViewController?.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
             
         }
         
-        saveAlert.addAction(cancel)
+        saveAlert.addAction(okAction)
         present(saveAlert, animated: true, completion: nil)
     }
     

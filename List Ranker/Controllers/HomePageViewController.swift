@@ -50,7 +50,7 @@ class HomePageViewController: UIViewController {
     }
     
     func createDefaultLists(){
-        let mcuMovies = ["Iron Man","The Incredible Hulk","Thor","Iron Man 2","Captain America:vThe First Avenger","THe Avengers","Iron Man 3","Thor: The Dark World","Captain America: The Winter Soldier","Guardians of the Galaxy","Avengers: Age of Ultron","Ant-Man","Captain America: Civil War","Doctor Strange","Guardians of the Galaxy Vol. 2","Spider-Man: Homecoming","Thor: Ragnarok","Black Panther","Avengers: Infinity War","Ant-Man and the Wasp","Captain Marvel","Avengers: Endgame","Spider-Man: Far from Home"]
+        let mcuMovies = ["Iron Man","The Incredible Hulk","Thor","Iron Man 2","Captain America: The First Avenger","The Avengers","Iron Man 3","Thor: The Dark World","Captain America: The Winter Soldier","Guardians of the Galaxy","Avengers: Age of Ultron","Ant-Man","Captain America: Civil War","Doctor Strange","Guardians of the Galaxy Vol. 2","Spider-Man: Homecoming","Thor: Ragnarok","Black Panther","Avengers: Infinity War","Ant-Man and the Wasp","Captain Marvel","Avengers: Endgame","Spider-Man: Far from Home"]
         let mcuMoviesTitle = "MCU Movies"
         
         let starwarsMovies = ["The Phantom Menance","Attack of the Clones","Revenge of the Sith","A New Hope","Empire Strikes Back","Return of the Jedi","The Force Awakens","The Last Jedi","The Rise of Skywalker","Rogue One","Solo: A Star Wars Story","The Clone Wars"]
